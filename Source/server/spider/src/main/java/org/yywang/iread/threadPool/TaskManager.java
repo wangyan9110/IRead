@@ -19,13 +19,13 @@ public class TaskManager {
     /**
      * the task pool
      */
-    private static final List<BaseTask> taskPool=new LinkedList<BaseTask>();
+    private static final List<Task> taskPool=new LinkedList<Task>();
 
     /**
      * add the task to the pool
-     * @param baseTask
+     * @param baseTask the task
      */
-    public void add(BaseTask baseTask){
+    public void add(Task baseTask){
         taskPool.add(baseTask);
     }
 
