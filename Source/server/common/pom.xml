@@ -7,8 +7,8 @@
     <artifactId>IRead-root</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>IRead-collection-domain</artifactId>
+  <artifactId>common</artifactId>
   <packaging>jar</packaging>
-  <name>IRead-collection-domain</name>
-  
+  <name>IRead-common</name>
+ 
 </project>
